@@ -33,7 +33,7 @@ html {
 	cursor: pointer;
 }
 
-body {
+.body {
  background-image: url("/assets/gotham.png");
  background-color: #807d7d9f;
 }
