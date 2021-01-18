@@ -1,5 +1,6 @@
 html {
   overflow: hidden;
+  background-image: url("/assets/gotham.png");
 }
 
 .Opponent {
@@ -31,9 +32,4 @@ html {
 	outline: none;
 	font-family: monospace;
 	cursor: pointer;
-}
-
-.body {
- background-image: url("/assets/gotham.png");
- background-color: #807d7d9f;
 }
