@@ -51,6 +51,7 @@ class Player extends Character {
                 this.game.endGame();
             }, 2000);
             super.collide();
+            this.game.lives--;
         }
     }
 }

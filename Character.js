@@ -26,6 +26,7 @@ class Character extends Entity {
     collide() {
         this.image.src = this.myImageDead;
         this.dead = true;
+        
     }
 }
 

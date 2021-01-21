@@ -207,10 +207,15 @@ class Game {
     /**
      * Termina el juego
      */
-    endGame () {
+    endGame ()
+    {
+        
         this.ended = true;
+
+        
         let gameOver = new Entity(this, this.width / 2, "auto", this.width / 4, this.height / 4, 0, GAME_OVER_PICTURE)
-        gameOver.render();
+            gameOver.render();
+        
     }
 
     /**
@@ -238,6 +243,7 @@ class Game {
             });
             this.checkCollisions();
             this.render();
+            
         }
     }
 
@@ -256,6 +262,6 @@ class Game {
             shot.render();
         } );
         document.getElementById("scoreli").innerHTML = "Puntos: " + this.score;
-        document.getElementById("livesli").innerHTML = "Vidas: " + this.player.lives;
+        document.getElementById("livesli").innerHTML = "Vidas: " + this.lives;
     }
 }
