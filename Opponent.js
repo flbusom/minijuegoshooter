@@ -69,6 +69,8 @@ class Opponent extends Character {
                 this.game.removeOpponent();
             }, 2000);
             super.collide();
+            this.game.score++;
+            
         }
 
     }

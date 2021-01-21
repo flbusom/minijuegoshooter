@@ -20,27 +20,39 @@
 }
 
 .gamebutton {
-	border: none;
-	background: #ddd;
-	color: #333;
+	border: black, 10px;
+	background: rgb(150, 253, 184);
+	color: rgb(13, 14, 13);
 	padding: 10px 20px;
 	outline: none;
 	font-family: monospace;
 	cursor: pointer;
 }
 
-#score {
-  transform-style: preserve-3d;
-  font-size:90px;
-  line-height: 90px;
+
+
+ul.scoreboard {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+li.scoreboard {
+   display: inline-flex;
+   width: 7.1em;
+   border: 2px solid rgb(243, 53, 53);
+   margin-top: 10px;
+   padding: 5px;
+   font-family: monospace;
+   background-color: white;
 }
 
 
-.html{
-	background-image: url("/assets/gotham.jpg");
-	background-size: cover;
-	background-position: center;
+html{
+	/*background: url("assets/gotham.2.png");*/
+	background-color: rgb(182, 204, 238);
 	background-repeat: no-repeat;
-	height: 100%;
-	
+	background-position: top;
+	background-size: 100%;
+
 }
