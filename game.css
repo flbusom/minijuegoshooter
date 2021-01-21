@@ -34,3 +34,9 @@ html {
 	font-family: monospace;
 	cursor: pointer;
 }
+
+#score {
+  transform-style: preserve-3d;
+  font-size:90px;
+  line-height: 90px;
+}
