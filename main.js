@@ -9,10 +9,10 @@ const OPPONENT_HEIGHT = 5,
     KEY_SHOOT = "SHOOT",
     MIN_TOUCHMOVE = 20,
     PLAYER_HEIGHT = 5,
-    PLAYER_PICTURE = "assets/bueno.jfif",
+    PLAYER_PICTURE = "assets/bueno.png",
     PLAYER_PICTURE_DEAD = "assets/bueno_muerto.png",
     PLAYER_SPEED = 20,
-    PLAYER_WIDTH = 4,
+    PLAYER_WIDTH = 5,
     SHOT_HEIGHT = 1.5,
     SHOT_SPEED = 15,
     SHOT_PICTURE_PLAYER = "assets/shot1.png",
@@ -37,5 +37,3 @@ document.addEventListener("DOMContentLoaded", () => {
 );
 
 
-document.getElementById("scoreli").innerHTML = "Puntos: " + this.score;
-document.getElementById("livesli").innerHTML = "Vidas: " + this.player.lives;

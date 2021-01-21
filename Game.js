@@ -252,6 +252,8 @@ class Game {
         });
         this.opponentShots.forEach((shot) => {
             shot.render();
-        });
+        } );
+        document.getElementById("scoreli").innerHTML = "Puntos: " + this.score;
+        document.getElementById("livesli").innerHTML = "Vidas: " + this.player.lives;
     }
 }
