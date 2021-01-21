@@ -1,9 +1,3 @@
-html {
-  background-color: aqua;
-  /*background-image: url("/assets/gotham.png");*/
- 
-}
-
 .Opponent {
 	animation: rotation 3s infinite linear;
 	-webkit-animation: rotation 3s infinite linear;
@@ -39,4 +33,14 @@ html {
   transform-style: preserve-3d;
   font-size:90px;
   line-height: 90px;
+}
+
+body,
+html{
+	background-image: url("/assets/gotham.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	
 }
