@@ -28,6 +28,15 @@
 	font-family: monospace;
 	cursor: pointer;
 }
+.gamebutton2 {
+	border: black, 10px;
+	background: rgb(205, 240, 140);
+	color: rgb(13, 14, 13);
+	padding: 10px 20px;
+	outline: none;
+	font-family: monospace;
+	cursor: pointer;
+}
 
 
 

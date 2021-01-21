@@ -17,8 +17,10 @@ class Game {
         this.opponentShots = []; // Disparos del oponente
         this.xDown = null; //  Posición en la que el usuario ha tocado la pantalla
         this.paused = false; // Indica si el juego está pausado
+        this.score = 0;
+        this.lives = 3;// vidas del jugador
     }
-
+    
     /**
      * Da comienzo a la partida
      */
