@@ -35,8 +35,8 @@
   line-height: 90px;
 }
 
-body,
-html{
+
+.html{
 	background-image: url("/assets/gotham.jpg");
 	background-size: cover;
 	background-position: center;
